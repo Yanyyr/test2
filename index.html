@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TheWorldApp landing page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Main header specifications -->
+    <header class="desktop" id="desktop">
+      <div class="logo_container">
+        <div id="logo">
+          <span> 🌍 </span>
+        </div>
+        <h1>TheWorld</h1>
+      </div>
+      
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+      </div>
+    </header>
+    
+    <header class="mobile" id="mobile">
+      <div id="icon_view">
+        <div class="hm_icon" id="hm_icon" onclick="toggleMenu()"></div>
+        <h1>TheWorldApp</h1>
+      </div>
+      
+      <div class="links" id="links">
+        <button class="close_btn" onclick="toggleMenu()">X</button>
+        <div class="mb_view_link_cont"><a href="index.html">Home</a></div>
+        <div class="mb_view_link_cont"><a href="about.html">About</a></div>
+        <div class="mb_view_link_cont"><a href="services.html">Services</a></div>
+    </div>
+    </header>
+    
+    <!-- Showcase information showcase -->
+    <section class="showcase">
+      <div class="paragraph">
+        <h1>
+          The most innovative app for information about certain countries!
+        </h1>
+        <p>
+          Because it would be much easier to look for news about certain
+          countries while scrolling around on a world map that is on your app
+          made to your liking and fully customizable. A much smoother and
+          reliable app for news and certain other things. To make an app as to
+          similar as Google maps but not a copy. That gives you information,
+          news, stock information, migration statistics etc. about a country
+          that you tap on
+      </p>
+      </div>
+      <form>
+        <input type="email" placeholder="Subscribe to our newsletter" />
+        <button type="submit" class="button_1">Subscribe</button>
+      </form>
+    </section>
+  
+    <!-- Relevant information goes to box_container div -->
+    <div class="box_container">
+      <div class="box">
+        <h3>Our look</h3>
+        <p>This image represents how the app would look on a smart phone</p>
+        <img
+          src="https://cdn.glitch.com/341fdb7c-ca88-4ce6-b833-3ba98b1e7767%2FScreenshot%202021-02-14%20at%2022.21.09.png?v=1613334184079"
+          alt="Visual Representation Image"
+        />
+      </div>
+
+      <div class="box">
+        <h3>Example of the website</h3>
+        <p>This is how the full landing page would look *similar to this*</p>
+        <img
+          src="https://cdn.glitch.com/341fdb7c-ca88-4ce6-b833-3ba98b1e7767%2FScreenshot%202021-02-14%20at%2022.17.51.png?v=1613333948029"
+          alt="Visual Representation Image"
+        />
+      </div>
+
+      <div class="box">
+        <h3>
+          Another way the app could look like but in a much cleaner finish
+        </h3>
+
+        <img
+          src="https://cdn.glitch.com/341fdb7c-ca88-4ce6-b833-3ba98b1e7767%2FScreenshot%202021-02-14%20at%2022.24.40.png?v=1613334429303"
+          alt="Visual Representation Image"
+        />
+      </div>
+
+      <div class="box">
+        <h3>The example look of a country in the app</h3>
+        <img
+          src="https://cdn.glitch.com/341fdb7c-ca88-4ce6-b833-3ba98b1e7767%2FScreenshot%202021-02-14%20at%2022.25.13.png?v=1613334426081"
+          alt="Visual Representation Image"
+        />
+      </div>
+    </div>
+    
+    <!-- Footer for copyright notice :DDD -->
+    <footer>
+        <p>Yash Wed Besign &copy; 2020</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TheWorldApp landing page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Main header specifications -->
+    <header class="desktop" id="desktop">
+      <div class="logo_container">
+        <div id="logo">
+          <span> 🌍 </span>
+        </div>
+        <h1>TheWorld</h1>
+      </div>
+      
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+      </div>
+    </header>
+    
+    <header class="mobile" id="mobile">
+      <div id="icon_view">
+        <div class="hm_icon" id="hm_icon" onclick="toggleMenu()"></div>
+        <h1>TheWorldApp</h1>
+      </div>
+      
+      <div class="links" id="links">
+        <button class="close_btn" onclick="toggleMenu()">X</button>
+        <div class="mb_view_link_cont"><a href="index.html">Home</a></div>
+        <div class="mb_view_link_cont"><a href="about.html">About</a></div>
+        <div class="mb_view_link_cont"><a href="services.html">Services</a></div>
+    </div>
+    </header>
+    
+    <!-- Main information goes here -->
+    <div class="paragraph">
+      <h1>Services</h1>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+        It has survived not only five centuries, but also the leap into electronic typesetting, 
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets 
+        containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
+        including versions of Lorem Ipsum.
+      </p>
+    </div>
+    
+    <!-- Futa for copyright notice :DDD -->
+    <footer>
+        <p>Yash Wed Besign &copy; 2020</p>
+    </footer>
+  </body>
+</html>
